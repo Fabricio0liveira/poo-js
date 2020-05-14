@@ -28,7 +28,7 @@ class Conta {
 }
 
 //Criando ou instanciando um objeto da classe "Conta"
-var conta1 = new Conta(123456, 500.00, "Maycon", 2000.00);
+var conta1 = new Conta(123456, 500.00, "Lucas", 2000.00);
 conta1.depositar(200.00);
 conta1.mostrarConta();
 conta1.saldo = 1000.00;
